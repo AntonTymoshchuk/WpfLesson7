@@ -1,0 +1,70 @@
+﻿<Window x:Class="WpfLesson7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLesson7"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel Orientation="Vertical">
+        <!--<CheckBox IsThreeState="True" IsChecked="True" Content="1"/>
+        <CheckBox IsThreeState="True" IsChecked="False" Content="2"/>
+        <CheckBox IsThreeState="True" IsChecked="True" Content="3" Checked="CheckBox_Checked"/>
+        <RadioButton Content="1" GroupName="A" IsThreeState="True"/>
+        <RadioButton Content="2" GroupName="A" IsThreeState="True"/>
+        <RadioButton Content="3" GroupName="A" IsThreeState="True"/>
+        <RadioButton Content="1" GroupName="B" IsThreeState="True"/>
+        <RadioButton Content="2" GroupName="B" IsThreeState="True"/>
+        <RadioButton Content="3" GroupName="B" IsThreeState="True" ToolTip="BlaBlaBla"/>-->
+
+        <!--<Expander Header="1" ExpandDirection="Right">
+            <Expander.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="Coral"  Offset="0.4"/>
+                    <GradientStop Color="Crimson"  Offset="0.6"/>
+                </LinearGradientBrush>
+            </Expander.Background>
+            <Image Source="/Images/icons8-wrench-filled-100.png" Width="100" Height="100" Cursor="Hand">
+                <Image.ToolTip>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Grid.Column="0" Source="/Images/icons8-wrench-filled-100.png" Width="20" Height="20"/>
+                        <TextBlock Grid.Column="1" Margin="5,0,0,0" VerticalAlignment="Center" FontSize="24">Instrument</TextBlock>
+                    </StackPanel>
+                </Image.ToolTip>
+            </Image>
+        </Expander>
+        <Expander Header="2">
+            <Expander.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="Coral"  Offset="0.4"/>
+                    <GradientStop Color="Crimson"  Offset="0.6"/>
+                </RadialGradientBrush>
+            </Expander.Background>
+            <Image Source="/Images/icons8-wrench-filled-100.png" Width="100" Height="100" Cursor="Hand">
+                <Image.ToolTip>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Grid.Column="0" Source="/Images/icons8-wrench-filled-100.png" Width="20" Height="20"/>
+                        <TextBlock Grid.Column="1" Margin="5,0,0,0" VerticalAlignment="Center" FontSize="24">Instrument</TextBlock>
+                    </StackPanel>
+                </Image.ToolTip>
+            </Image>
+        </Expander>
+        <Expander Header="3">
+            <Expander.Background>
+                <ImageBrush ImageSource="/Images/icons8-wrench-filled-100.png" Stretch="UniformToFill"/>
+            </Expander.Background>
+            <Image Source="/Images/icons8-wrench-filled-100.png" Width="100" Height="100" Cursor="Hand">
+                <Image.ToolTip>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Grid.Column="0" Source="/Images/icons8-wrench-filled-100.png" Width="20" Height="20"/>
+                        <TextBlock Grid.Column="1" Margin="5,0,0,0" VerticalAlignment="Center" FontSize="24">Instrument</TextBlock>
+                    </StackPanel>
+                </Image.ToolTip>
+            </Image>
+        </Expander>-->
+
+        <Button IsDefault="True" Click="Button_Click" Content="Button1" IsTabStop="False"/>
+        <Button Click="Button_Click" Content="Button2" IsTabStop="False"/>
+        <Button Click="Button_Click" Content="Button3" IsTabStop="False"/>
+    </StackPanel>
+</Window>
